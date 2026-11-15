@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>写给你的那首歌 · AI 定制歌曲</title>
+<meta name="description" content="你说一段故事，我写成一首歌。AI 原创中文音乐，定制歌曲与原创专辑，48 小时交付，可商用授权。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Songti SC",serif;background:#0b0e14;color:#e8eaf0;line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px;background:radial-gradient(ellipse at 50% 0%,#1b2a4a 0%,#0b0e14 70%);position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url(img/05_落地页首屏.png) center/cover no-repeat;opacity:.22;filter:blur(2px)}
+.hero>*{position:relative;z-index:1}
+h1{font-size:clamp(34px,7vw,74px);letter-spacing:8px;margin-bottom:18px}
+.sub{font-size:clamp(15px,2.2vw,22px);opacity:.78;letter-spacing:2px}
+.badges{margin-top:38px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.b{padding:9px 20px;border:1px solid rgba(255,255,255,.2);border-radius:999px;font-size:14px;opacity:.85}
+section{max-width:960px;margin:0 auto;padding:70px 24px}
+h2{font-size:32px;margin-bottom:10px;letter-spacing:2px}
+.lead{opacity:.7;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:26px}
+.card{background:#131824;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:26px;transition:.3s}
+.card:hover{border-color:rgba(255,255,255,.22);transform:translateY(-3px)}
+.card h3{font-size:19px;margin-bottom:8px}
+.price{font-size:38px;margin:10px 0 6px;color:#ffd479;font-weight:600}
+.card p{opacity:.78;font-size:15px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.tag{padding:5px 13px;background:#1c2333;border-radius:7px;font-size:13px;opacity:.75}
+.albums{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px;margin-top:26px}
+.album img{width:100%;border-radius:12px;display:block;aspect-ratio:1/1;object-fit:cover}
+.album h4{margin:12px 0 4px;font-size:16px}
+.album p{opacity:.68;font-size:14px}
+.album a{display:inline-block;margin-top:10px;color:#9ecbff;text-decoration:none;font-size:14px;border-bottom:1px solid rgba(158,203,255,.35)}
+.cta{display:block;margin:22px auto 0;max-width:420px;text-align:center;padding:16px 28px;border-radius:999px;background:linear-gradient(90deg,#ffd479,#ffb35c);color:#1a1206;font-weight:700;text-decoration:none;font-size:17px;letter-spacing:2px;transition:.25s}
+.cta:hover{filter:brightness(1.08);transform:translateY(-2px)}
+.faq details{background:#131824;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:16px 20px;margin-bottom:12px}
+.faq summary{cursor:pointer;font-size:16px;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"＋";float:right;opacity:.5}
+.faq details[open] summary::after{content:"－"}
+.faq p{margin-top:12px;opacity:.75;font-size:15px}
+.contact{background:#131824;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:30px;margin-top:24px;text-align:center}
+.contact .big{font-size:22px;margin-bottom:8px;letter-spacing:1px}
+.contact p{opacity:.75;font-size:15px}
+.foot{text-align:center;padding:50px 24px;opacity:.5;font-size:14px;border-top:1px solid rgba(255,255,255,.08)}
+.badge{display:inline-block;background:rgba(255,212,121,.13);color:#ffd479;border-radius:6px;padding:2px 9px;font-size:12px;margin-left:6px;vertical-align:middle}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="hero-bg"></div>
+<h1>写给你的那首歌</h1>
+<div class="sub">你说一段故事，我写成一首歌</div>
+<div class="badges">
+<span class="b">原创词曲编唱一体</span>
+<span class="b">48 小时交付</span>
+<span class="b">可商用授权</span>
+<span class="b">不满意重做</span>
+</div>
+</div>
+
+<section>
+<h2>怎么合作</h2>
+<p class="lead">把你想说的话、想纪念的那个人、或者只是当时的心情告诉我。我把它写成歌词，配上你想要的曲风，生成一首完整的歌——含演唱、混音、封面和歌词本。</p>
+<div class="tags">
+<span class="tag">民谣</span><span class="tag">流行</span><span class="tag">city pop</span><span class="tag">国风</span>
+<span class="tag">摇滚</span><span class="tag">电子</span><span class="tag">R&amp;B</span><span class="tag">纯钢琴</span>
+</div>
+<a class="cta" href="#contact">聊聊你的那首歌</a>
+</section>
+
+<section>
+<h2>价格</h2>
+<p class="lead">所有档位均含 MP3 高清（192kbps）+ 歌词文档 + 封面图；修改 2 轮不额外收费。</p>
+<div class="grid">
+<div class="card"><h3>基础</h3><div class="price">¥99</div><p>1 首歌 · 1 版 · 副歌定制<br>48 小时交付</p></div>
+<div class="card"><h3>标准</h3><div class="price">¥299</div><p>1 首歌 · 2 版 · 整段歌词定制<br>含封面与创作说明</p></div>
+<div class="card"><h3>豪华</h3><div class="price">¥599</div><p>2 首 · 3 版 · 含视频版<br>多风格试听</p></div>
+<div class="card"><h3>专辑</h3><div class="price">¥1999</div><p>10 首成册 · 完整视觉<br>含商用授权</p></div>
+</div>
+</section>
+
+<section>
+<h2>成品专辑</h2>
+<p class="lead">可直接下单的现成原创专辑，每张 12 首，全部含词曲编唱与歌词文档。</p>
+<div class="albums">
+<div class="album"><img src="img/01_晚风来信.png" alt="晚风来信 专辑封面"><h4>晚风来信</h4><p>12 首 · 民谣/国风混编<br>适合婚礼、纪念、叙事短视频</p><a href="#contact">咨询购买 →</a></div>
+<div class="album"><img src="img/02_十年返场.png" alt="十年返场 专辑封面"><h4>十年返场</h4><p>12 首 · 流行/摇滚<br>适合回忆类内容、live 现场</p><a href="#contact">咨询购买 →</a></div>
+<div class="album"><img src="img/03_十二首歌.png" alt="十二首歌 专辑封面"><h4>十二首歌</h4><p>12 首 · 全风格合辑<br>适合做商用 BGM 素材库</p><a href="#contact">咨询购买 →</a></div>
+<div class="album"><img src="img/04_定制服务页.png" alt="定制服务页"><h4>定制单曲</h4><p>你点题，我写歌<br>不限题材，48 小时交付</p><a href="#contact">开始定制 →</a></div>
+</div>
+</section>
+
+<section>
+<h2>交付内容</h2>
+<div class="grid">
+<div class="card"><h3>音频</h3><p>MP3 高清（192kbps），可选 WAV 无损</p></div>
+<div class="card"><h3>歌词</h3><p>完整歌词文档，含结构标记与创作说明</p></div>
+<div class="card"><h3>视觉</h3><p>800×800 专辑封面图</p></div>
+<div class="card"><h3>版权</h3><p>买断档含商用授权，可用于视频与发行</p></div>
+</div>
+</section>
+
+<section class="faq">
+<h2>常见问题</h2>
+<details><summary>AI 写的会不会很假？</summary><p>歌词由人逐句打磨后再进曲，编曲与演唱由本地模型生成，交付前我会自己先听一遍，达不到标准的重做，不会硬发给你。</p></details>
+<details><summary>能商用吗？</summary><p>可以。¥1999 专辑档与 ¥599 豪华档含商用授权，可用于短视频、播客、发布等商业用途；授权范围会在交付文档里写清楚。</p></details>
+<details><summary>多久能拿到？</summary><p>标准交付 48 小时。豪华档（多版本）约 72 小时，加急可单独商量。</p></details>
+<details><summary>买了能改吗？</summary><p>所有档位含 2 轮免费修改，包括改歌词、换曲风、调时长。超出部分按次另议，不会乱收费。</p></details>
+</section>
+
+<section id="contact">
+<h2>联系方式</h2>
+<div class="contact">
+<div class="big">微信搜索公众号「写给你的那首歌」</div>
+<p>或直接私信我，说明三件事：<b>想写给谁、想说什么、想要什么曲风</b>，我先给你一版歌词确认，再进曲。</p>
+<p style="margin-top:14px;opacity:.55;font-size:13px">工作日 24 小时内回复，夜间消息一般次日回。</p>
+</div>
+</section>
+
+<div class="foot">原创定制 · 48 小时交付 · 修改 2 轮不额外收费 · 不满意重做</div>
+</body>
+</html>
